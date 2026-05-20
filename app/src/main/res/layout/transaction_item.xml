@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="14dp"
+    android:layout_margin="8dp"
+    android:background="#FFFFFF"
+    android:elevation="4dp">
+
+    <TextView
+        android:id="@+id/txtCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rajath"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product : Tomato 10KG"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txtGivenAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Given Amount : ₹500"
+        android:textSize="16sp"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/txtReturnedAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Returned Amount : ₹200"
+        android:textSize="16sp"
+        android:textColor="#1976D2"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtPending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending Amount : ₹300"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date : 07-05-2026"
+        android:textSize="15sp"
+        android:textColor="#666666"
+        android:layout_marginTop="6dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnEditTransaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1976D2"/>
+
+        <Button
+            android:id="@+id/btnDeleteTransaction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginStart="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style
+        name="Base.Theme.NammaSantheLedger"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style
+        name="Theme.NammaSantheLedger"
+        parent="Base.Theme.NammaSantheLedger" />
+
+</resources>
